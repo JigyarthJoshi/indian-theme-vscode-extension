@@ -1,0 +1,41 @@
+{
+  "name": "indian-theme",
+  "displayName": "Indian Theme",
+  "description": "A soothing theme with colours of the Indian Flag 🧡🤍💚",
+  "version": "0.0.1",
+  "publisher": "JigyarthJoshi",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "indiaicon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JigyarthJoshi/indian-theme-vscode-extension"
+  },
+  "homepage": "https://github.com/JigyarthJoshi/indian-theme-vscode-extension",
+  "bugs": {
+    "url": "https://github.com/JigyarthJoshi/indian-theme-vscode-extension"
+  },
+  "keywords": [
+    "theme",
+    "indian",
+    "flag",
+    "colorful",
+    "vscode",
+    "tricolor"
+  ],
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Indian Theme 🇮🇳",
+        "uiTheme": "vs",
+        "path": "./themes/Indian Theme 🇮🇳-color-theme.json"
+      }
+    ]
+  }
+}
+
